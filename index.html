@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>🇫🇷 A FJU 🇫🇷</title>
+
+<style>
+body {
+  background: #000;
+  color: #fff;
+  font-family: Arial;
+  text-align: center;
+}
+
+h1 {
+  color: gold;
+  margin-top: 20px;
+}
+
+.video {
+  margin: 25px;
+}
+
+iframe {
+  width: 100%;
+  height: 220px;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background: gold;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.texto {
+  display: none;
+  margin-top: 15px;
+  background: #111;
+  padding: 15px;
+  border-radius: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🇫🇷 CONHEÇA A FJU 🇫🇷</h1>
+
+<!-- ATALAIA -->
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/A67Td7AqHJg"></iframe>
+  <br>
+  <button onclick="toggle('t1')">Atalaia 📣</button>
+  <div id="t1" class="texto">
+    O projeto Atalaia tem a missão de resgatar e ajudar jovens que estão sofrendo,
+    levando a palavra de Deus e realizando visitas para apoiar quem precisa.
+  </div>
+</div>
+
+<!-- MÍDIA -->
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/FspFHo-sMk0"></iframe>
+  <br>
+  <button onclick="toggle('t2')">Mídia 📷</button>
+  <div id="t2" class="texto">
+    O projeto Mídia é responsável pela divulgação dos eventos e ações,
+    desenvolvendo habilidades em audiovisual, textos e design.
+  </div>
+</div>
+
+<!-- UNIVERSITÁRIOS -->
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/u7q9nWwxomE"></iframe>
+  <br>
+  <button onclick="toggle('t3')">Universitários 📚</button>
+  <div id="t3" class="texto">
+    Promove encontros, workshops e apoio para jovens que buscam crescimento acadêmico
+    e preparo para universidades e concursos.
+  </div>
+</div>
+
+<!-- UNIFORÇA -->
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/XUzUVH364ec"></iframe>
+  <br>
+  <button onclick="toggle('t4')">Uniforça 🛡️</button>
+  <div id="t4" class="texto">
+    Responsável pela organização e segurança dos eventos,
+    com treinamento em defesa pessoal e primeiros socorros.
+  </div>
+</div>
+
+<!-- HELP -->
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/ZKvUdR0u4yY"></iframe>
+  <br>
+  <button onclick="toggle('t5')">Help 🆘</button>
+  <div id="t5" class="texto">
+    Ajuda jovens que enfrentam dores emocionais, oferecendo apoio e direção
+    para quem busca uma saída do sofrimento.
+  </div>
+</div>
+
+<!-- ESPORTE -->
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/L2CarcyhkSU"></iframe>
+  <br>
+  <button onclick="toggle('t6')">Esporte ⚽</button>
+  <div id="t6" class="texto">
+    Incentiva a prática esportiva e descoberta de talentos em diversas modalidades.
+  </div>
+</div>
+
+<!-- ARCANJOS -->
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/zCmWs21nytI"></iframe>
+  <br>
+  <button onclick="toggle('t7')">Arcanjos 🫂</button>
+  <div id="t7" class="texto">
+    Jovens que buscam resgatar aqueles que se afastaram da fé,
+    cuidando até que retornem à presença de Deus.
+  </div>
+</div>
+
+<!-- CULTURA -->
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/xZnfM1Jhvsk"></iframe>
+  <br>
+  <button onclick="toggle('t8')">Cultura 🎤</button>
+  <div id="t8" class="texto">
+    Desenvolve talentos através da arte, música, dança e teatro,
+    com foco na “arte de salvar”.
+  </div>
+</div>
+
+<!-- ASSISTENTES -->
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/tKsndrQyiB8"></iframe>
+  <br>
+  <button onclick="toggle('t9')">Assistentes 📋</button>
+  <div id="t9" class="texto">
+    Auxiliam na organização e apoio espiritual dentro da FJU,
+    colaborando com os coordenadores.
+  </div>
+</div>
+
+<script>
+function toggle(id) {
+  let el = document.getElementById(id);
+  el.style.display = el.style.display === "block" ? "none" : "block";
+}
+</script>
+
+</body>
+</html>
